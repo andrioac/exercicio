@@ -62,10 +62,10 @@ while(cont < 30):
     avioes.append(aviao)
     avioesAguardandoChassi.append(aviao)
 
-    if(len(avioesComChassi) == 5):
+    if(len(avioesComChassi) == 1):
       enviarAvioesComChassiParaAdicionarAsas()
         
-    if(len(avioesComAsa) == 5):
+    if(len(avioesComAsa) == 1):
       enviarAvioesComAsaParaAdicionarCabine()   
 
     adicionarChassi()
