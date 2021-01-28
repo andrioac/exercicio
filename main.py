@@ -14,7 +14,6 @@ class Aviao:
     asa = False
     cabine = False
 
-
 def adicionarChassi():
     global tempoParado
     if(len(avioesAguardandoChassi) > 0):
@@ -23,7 +22,6 @@ def adicionarChassi():
         avioesComChassi.append(aviao)
     else:
         tempoParado += 1
-
 
 def adicionarAsas():
     global tempoParado
@@ -35,7 +33,6 @@ def adicionarAsas():
         avioesComAsa.append(aviao)
     else:
         tempoParado += 1
-
 
 def adicionarCabine():
     global tempoParado
